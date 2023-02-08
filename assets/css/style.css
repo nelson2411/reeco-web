@@ -2090,7 +2090,7 @@ p {
 @media (max-width: 767px) {
   .lg-btn {
     font-size: 16px;
-    ine-height: 52px;
+    line-height: 52px;
   }
 }
 
@@ -4280,3 +4280,19 @@ p.form-message.error.form-message.error {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.dropdown-menu {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+  border-radius: 7px;
+}
+
+.dropdown-menu > li > a {
+  text-align: center;
+  color: #121212 !important;
+}
